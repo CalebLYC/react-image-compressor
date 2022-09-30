@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-image-compressor/static/css/main.e58de19a.css",
+    "main.js": "/react-image-compressor/static/js/main.970524f9.js",
+    "index.html": "/react-image-compressor/index.html",
+    "main.e58de19a.css.map": "/react-image-compressor/static/css/main.e58de19a.css.map",
+    "main.970524f9.js.map": "/react-image-compressor/static/js/main.970524f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e58de19a.css",
+    "static/js/main.970524f9.js"
+  ]
+}
