@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    border: dashed 1px rgb(101, 224, 101);
+    margin: 2px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card img{
+    max-width: 500px;
+    max-height: 500px;
+    border: solid 1px rgb(36, 154, 233);
+}
+
+.compressBtn{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(101, 224, 101);
+    color: #FFF;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: .3s;
+}
+.compressBtn:hover{
+    transform: scale(1.03);
+    font: 14.5pt;
+    transition: .3s;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(101, 224, 101);
+    margin: 2px;
+}
+.options label{
+    color: rgb(36, 154, 233);
+    font-size: 1rem;
+}
+
+.option{
+    margin: 5px;
+    padding: 5px;
+}
+.option select{
+    outline: none;
+    border: .5px solid rgb(101, 224, 101);
+    color: rgb(36, 154, 233);
+}
+
+@media screen and (max-width:1300px) {
+    .card img{
+        max-width: 100px;
+        max-height: 150px;
+    }
+    .compressBtn{
+        padding: 5px;
+        margin: 5px;
+    }
+}
