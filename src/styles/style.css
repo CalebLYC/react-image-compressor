@@ -65,7 +65,14 @@
     border: .5px solid rgb(101, 224, 101);
     color: rgb(36, 154, 233);
 }
-
+.reference{
+    font-size: 12pt;
+    font-style: italic;
+}
+.reference a{
+    text-decoration: none;
+    color: rgb(36, 154, 233);
+}
 @media screen and (max-width:1300px) {
     .card img{
         max-width: 100px;
